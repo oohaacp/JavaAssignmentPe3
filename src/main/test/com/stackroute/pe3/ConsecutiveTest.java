@@ -25,7 +25,7 @@ public class ConsecutiveTest {
     }
 
     @Test
-    public void testConsecutiveNumbers() {
+    public void givenInputStringShouldReturnTestConsecutiveNumbers() {
 
         String str = "10,11,12,13,14,15,16,17";
         assertEquals(
@@ -34,7 +34,7 @@ public class ConsecutiveTest {
     }
 
     @Test
-    public void testConsecutiveNumber() {
+    public void givenInputStringShouldReturnNonTestConsecutiveNumber() {
         String str = "10,20,30,40,50,60";
         assertEquals(
                 "check is it non consecutive or not",
@@ -42,18 +42,10 @@ public class ConsecutiveTest {
     }
 
     @Test
-    public void testConsecutive() {
+    public void givenInputStringShouldReturnTestConsecutive() {
         String str = "11,10,9,8,7,6";
         assertEquals(
                 "check in reverse order if is it consecutive or not",
                 "consecutive", consecutive.getReverseConsecutiveNumbers(str));//checking expected and actual values
     }
 }
-/*    @Test
-    public void testConsecutiveSame() {
-        String s = "6,6,6,6,6,6";
-        assertEquals(
-                "check in reverse order if is it consecutive or not",
-                "non consecutive", consecutive.getConsecutiveNumbers(str));//checking expected and actual values
-    }
-}*/

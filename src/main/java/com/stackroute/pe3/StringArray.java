@@ -22,19 +22,7 @@ public class StringArray
 
             return result;
         }
-        /*  public static String[] removeDuplicateElements(String[] s1) {
-              int n = s1.length;
-              int index = 0;
-              for (int i = 0; i < n; i++) {
-                  int j;
-                  for (j = 0; j < i; j++)
-                      if (s1[i] == s1[j])
-                          break;
-                  if (j == i)
-                      s1[index++] = s1[i];
-              }
-              return s1;
-          }*/
+
         public String removeDuplicateElements(String[] x)
         {
             String result="";

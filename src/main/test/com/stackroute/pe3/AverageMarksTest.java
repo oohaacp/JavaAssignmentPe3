@@ -23,19 +23,19 @@ public class AverageMarksTest
       averageMarks = null;
     }
 
-    public void inBetweenZeroAndHundred()
+    public void givenInputStringShouldReturnInBetweenZeroAndHundred()
     {
       String z=averageMarks.computeMarksEqual(20);
       assertEquals("true",z);//checking expected and actual values
     }
     @Test
-    public void greaterThan()
+    public void givenInputStringShouldReturnGreaterThanActualValue()
     {
       String z=averageMarks.computeMarksGreater(121);
       assertEquals("Input should not be greater than 100",z);//checking expected and actual values
     }
     @Test
-    public void lessThanZero()
+    public void givenInputStringShouldReturnLessThanZero()
     {
       String z=averageMarks.computeMarksLess(-5);
       assertEquals("Input should not be less than 0",z);//checking expected and actual values

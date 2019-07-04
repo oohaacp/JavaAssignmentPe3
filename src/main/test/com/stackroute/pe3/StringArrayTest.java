@@ -24,7 +24,7 @@ public class StringArrayTest
         }
         @Test
 
-        public  void compareTest()
+        public  void givenInputStringShouldReturnCompareTest()
         {
             String[] str1={"8","A","39"};
             String[] str2={"8","B","39"};
@@ -33,14 +33,14 @@ public class StringArrayTest
 
         }
         @Test
-        public void duplicateRemove()
+        public void givenInputStringShouldReturnDuplicateRemove()
         {
             String[] str1={"10","20","10","30"};
             String str="duplicates found";
             assertEquals(str,stringArray.removeDuplicateElements(str1));//checking expected and actual values
         }
         @Test
-        public void appendString()
+        public void givenInputStringShouldReturnAppendString()
         {
             String[] str1={"10","20","30"};
             String[] str2={"50","20","40"};
@@ -49,7 +49,7 @@ public class StringArrayTest
         }
 
         @Test
-        public void prependMid()
+        public void givenInputStringShouldReturnPrependMid()
         {
             String[] str1={"10","20","30"};
             String[] str2={"50","60","70"};

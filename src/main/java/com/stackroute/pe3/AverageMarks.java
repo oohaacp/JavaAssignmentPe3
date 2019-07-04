@@ -3,7 +3,8 @@ package com.stackroute.pe3;
 public class AverageMarks
 {
 
-    public String computeMarksEqual(int marks){
+    public String computeMarksEqual(int marks)
+    {
       String result="";
       if(marks>0&&marks<100)
         result="true";

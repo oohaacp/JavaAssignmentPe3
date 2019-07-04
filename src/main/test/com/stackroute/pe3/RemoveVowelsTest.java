@@ -17,15 +17,8 @@ public class RemoveVowelsTest
 
 
         }
-        /*@Test
-        public void AllVowels() {
-            String[] str2 = {"aeiou"};
-            String[] str = oe.vowelsRemove(str2);
-            String[] str1 = {""};
-            assertArrayEquals(str1, str);
-        }*/
         @Test
-        public void AllVowels() {
+        public void allVowels() {
             removeVowels = new RemoveVowels();
             String[] str2 = {"aeiou"};
 
@@ -38,7 +31,7 @@ public class RemoveVowelsTest
         }
 
         @Test
-        public void VowelsConsonants() {
+        public void givenInputStringShouldReturnvowelsConsonants() {
             removeVowels = new RemoveVowels();
             String[] str2 = {"d", "a", "e", "f"};
 
@@ -49,14 +42,7 @@ public class RemoveVowelsTest
 
 
         }
-      /*  @Test
-        public void nullPointer() {
-            removeVowels = new RemoveVowels();
-            String s = "";
 
-            String str = removeVowels.nullPointerException(s);
-            assertEquals("input string cannot be null",str);//checking expected and actual values
-        }*/
         @Test
 
         public void places2() {
