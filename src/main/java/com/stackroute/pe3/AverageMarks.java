@@ -19,6 +19,7 @@ public class AverageMarks
 
     }
     public String computeMarksGreater(int marks){
+
       String result="";
       if(marks>100) {
         result = "Input should not be greater than 100";

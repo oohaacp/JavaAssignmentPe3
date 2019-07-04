@@ -25,20 +25,20 @@ public class AverageMarksTest
 
     public void givenInputStringShouldReturnInBetweenZeroAndHundred()
     {
-      String z=averageMarks.computeMarksEqual(20);
-      assertEquals("true",z);//checking expected and actual values
+      String str=averageMarks.computeMarksEqual(20);
+      assertEquals("true",str);//checking expected and actual values
     }
     @Test
     public void givenInputStringShouldReturnGreaterThanActualValue()
     {
-      String z=averageMarks.computeMarksGreater(121);
-      assertEquals("Input should not be greater than 100",z);//checking expected and actual values
+      String str=averageMarks.computeMarksGreater(121);
+      assertEquals("Input should not be greater than 100",str);//checking expected and actual values
     }
     @Test
     public void givenInputStringShouldReturnLessThanZero()
     {
-      String z=averageMarks.computeMarksLess(-5);
-      assertEquals("Input should not be less than 0",z);//checking expected and actual values
+      String str=averageMarks.computeMarksLess(-5);
+      assertEquals("Input should not be less than 0",str);//checking expected and actual values
     }
 
 
